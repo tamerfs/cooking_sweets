@@ -146,11 +146,11 @@ body{
         width: 300px;
         height: 300px;  
     }
-    .box{
+    .bolha{
         display: flex;
         flex-direction: column;
     }
-    .box iframe{
+    .bolha iframe{
         margin: 5px;
         height: auto;
         width: auto;
@@ -159,23 +159,23 @@ body{
 
 @media (max-width: 650px) {
 
-.container {      
-    padding: 10px;
-    margin: 0;
-}
+    .container {      
+        padding: 10px;
+        margin: 0;
+    }
     .perfil-foto {
         display: none;
     }
     .cabecalho {
-       align-self: center;
-       padding: 10px;
-       margin: 10px;
+        align-self: center;
+        padding: 10px;
+        margin: 10px;
     }
     .projetos {
         align-self: center;
         padding: 10px;
         margin: 10px;
-     }
+        }
     .titulo h1 {
         margin-bottom: 10px;
         }
@@ -190,13 +190,9 @@ body{
         margin-left: 0;
         margin-bottom: 10px;
     }
-    .box{
-        display: flex;
-        flex-direction: column;
+
+    iframe {
+        display: none;
     }
-    .box iframe{
-        margin: 5px;
-        height: auto;
-        width: auto;
-    }
+
 }
